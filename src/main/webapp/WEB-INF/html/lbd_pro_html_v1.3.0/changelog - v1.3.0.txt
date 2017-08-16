@@ -1,0 +1,45 @@
+V1.0 17 Oct, 2015 - Initial Release
+
+V1.0.1 20 Oct, 2015 - Quick fix
+- fix for windows scroll bar on sidebar
+- changes for the default color (now orange)
+
+V1.0.2 12 Nov, 2015 - Added Sketch Version + Bugfixing
+- added Sketch Version
+- fix bug on Bootstrap Table actions
+
+V1.1 12 Dec, 2015 - Bugfixing
+- added Fixed Navbar feature
+- added "remove with backspace" feature for input tags
+- fix for mobile/tablet issue on links inside dropdowns on sidebar
+- change in Sweet Alert HTML message
+- disabled "scroll to zoom" on jVectorMaps
+- added direction triangles inside dropdowns in sidebar so the user will know that the area can be expanded
+
+V1.1.1 19 Jan, 2016 - Bugfixing
+- added icon fonts for HTML + Sketch Package
+
+V1.1.2 19 Jan, 2016 - Plugin Update [current version]
+- update to Bootstrap Select Picker to 1.8.1
+
+V1.2 01 Apr, 2016 - Bugfixing + Plugins Updates [current version]
+- update to SweetAlert 2
+- fixing Bootstrap Table with preset height issue
+- fixed checkboxes and radios which require validation
+- added "input-sm" class
+- fixed sidebar scroll on the lowest items iPhone/iPad
+- added perfectScrollbar library for Windows users
+
+V1.3 18 Aug, 2016 - Major Update A.K.A. "Major Key Alert"
+- added Sidebar Mini (Just icons) Feature
+- added DataTables.net plugin (more complex than the old Bootstrap Table)
+- added Modal Example in Components > Notifications + fixed the issues with modals
+- added example for Datepicker without date
+- added Breadcrumbs example in typography
+- fixed sliders on mobile using jQuery UI Touch Punch
+- fixed bug in mozilla for carets in Sidebar Menu
+- fixed panels collapse in Safari
+- fixed issue for PerfectScrollbar assuming anything that is not Mac is Windows which is false
+- fixed Print Issue
+- fixed fullcalendar.js problem with UTF-8 characters
+- fixed mobile sidebar menu when you have no items in navbar

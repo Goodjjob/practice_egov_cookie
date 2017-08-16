@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="egovframework.example.welcomeWeb.service.impl.WelcomeWebMapper">
+	
+	<!-- 메인 조회 -->
+	<select id="selectWelcomeWebServiceList" resultType="egovMap">
+		SELECT ID,
+    		USER_NAME,
+    		AGE,
+    		COUNTRY,
+    		ETC
+		FROM welcome_web
+	</select>
+
+	<select id="selectPieChartList" resultType="egovMap">
+		SELECT ROUND(A.CNT/(SELECT count(*) TOTCNT 
+							FROM   welcome_web)*100) AS PERCENT
+			 , COUNTRY  
+		FROM (SELECT count(COUNTRY) as CNT, COUNTRY 
+				FROM welcome_web group by COUNTRY) A	
+	</select>
+</mapper>
